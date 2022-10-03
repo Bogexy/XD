@@ -1,0 +1,90 @@
+html {
+	background-color: rgb(225, 224, 224);
+}
+
+h1 {
+	color: red;
+	font-family: Calibri, 'Trebuchet MS', sans-serif;
+	font-size: 3.6em;
+	margin-bottom: 0.5em;
+
+}
+
+.header {
+	background-color: rgb(0, 255, 255);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 1em;
+}
+
+
+
+
+
+.site-description {
+	display: flex;
+	flex-direction: column;
+	justify-content: first baseline;
+}
+
+.grid {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+.footer {
+	display: flex;
+	justify-content: flex-end;
+}
+
+p,
+h2 {
+	text-align: center;
+}
+
+p {
+	color: rgb(0, 0, 0);
+	font-family: sans-serif;
+	font-size: 0.9em;
+	margin-bottom: 0.5em;
+	margin-top: 0.5em;
+}
+
+a#am {
+	color: rgb(255, 0, 0);
+	font-family: sans-serif;
+	font-size: 1.5em;
+	margin: 0.5em;
+	text-decoration: none;
+	padding: 0.2em;
+	
+	border: solid;
+	border-color: rgb(255, 255, 255);
+	border-width: 0.19em;
+	border-radius: 0.9em;
+}
+
+a#index {
+	color: rgb(0, 0, 0);
+	font-family: sans-serif;
+	font-size: 1.5em;
+	margin: 0.5em;
+	text-decoration: none;
+	padding: 0.2em;
+
+	border: solid;
+	border-color: rgb(255, 255, 255);
+	border-width: 0.19em;
+	border-radius: 0.9em;
+}
+
+h2#description {
+	background-color: rgb(0, 255, 34);
+	color: rgb(0, 0, 0);
+	font-family: sans-serif;
+	font-size: 0.9em;
+	padding: 1em;
+
+}
